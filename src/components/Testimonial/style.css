@@ -1,23 +1,30 @@
-.TestmonialSlider_main_slider_wrapper .wrapper{
+.TestmonialSlider_main_slider_wrapper .wrapper {
     width: 100%;
     position: relative;
-    background: linear-gradient(172deg, black, #b47e1b);
-    min-height: 380px;
+    background: linear-gradient(117deg, black, #d49d3926);
+    /* min-height: 380px; */
     padding: 12px;
     border-radius: 15px;
-    border: 1px solid #ffffff99;}
-    .TestmonialSlider_main_slider_wrapper .wrapper .subTxt{
-        padding-left: 10px;
-    }
-    .TestmonialSlider_main_slider_wrapper  .textnominals{
-        padding-left: 13px;
+    border: 1px solid #ffffff99;
+}
+
+.TestmonialSlider_main_slider_wrapper .wrapper .subTxt {
+    padding-left: 10px;
+}
+
+.TestmonialSlider_main_slider_wrapper .textnominals {
+    padding-left: 13px;
     margin: 19px 0;
     border-left: 2px solid #a49090;
     margin-left: 19px;
-    }
-    .TestmonialSlider_main_slider_wrapper .name{
-        font-size: 22px;
-    }
-    .TestmonialSlider_main_slider_wrapper .post{
-        font-size: 12px;
-    }
+}
+
+.TestmonialSlider_main_slider_wrapper .name {
+    font-size: 22px;
+}
+
+.TestmonialSlider_main_slider_wrapper .post {
+    font-size: 12px;
+}
+
+/* background: linear-gradient(172deg, black, #b47e1b); */

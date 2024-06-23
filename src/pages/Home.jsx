@@ -10,6 +10,9 @@ import Champion from '../components/champion'
 import Leads from '../components/Leads'
 import Mentor from '../components/Mentor/mentor'
 import Advisory from '../components/Advisory'
+import FormerLead from '../components/Former Lead/FormerLead'
+import UiPathInfo from '../components/UiPath'
+// import loading from "../aassets/loading.mp4";
 
 export default function Home() {
   return (
@@ -19,10 +22,12 @@ export default function Home() {
       <Community/>
       <Believe/>
       <About/>
+      <UiPathInfo/>
       <Champion/>
       <Mentor/>
       <Advisory/>
       <Leads/>
+      <FormerLead/>
       <Testimonial/>
       <Footer/>
     </div>

@@ -22,13 +22,13 @@ export default function Community() {
                         <p className='text-base lg:text-3xl font-bold'>Domains</p>
                     </div>
                     <div className='text-center '>
-                        <p className=' lg:text-7xl text-3xl font-sans font-bold text-transparent bg-clip-text bg-gradient-to-b from-orange-500 to-orange-900'>1</p>
+                        <p className=' lg:text-7xl text-3xl font-sans font-bold text-transparent bg-clip-text bg-gradient-to-b from-orange-500 to-orange-900'>2</p>
                         <p className='text-base lg:text-3xl font-bold'>Event </p>
                         <p className='text-base lg:text-3xl font-bold'>Organised</p>
 
                     </div>
                     <div className='text-center'>
-                        <p className=' lg:text-7xl text-3xl font-sans font-bold text-transparent bg-clip-text bg-gradient-to-b from-orange-500 to-orange-900'>1</p>
+                        <p className=' lg:text-7xl text-3xl font-sans font-bold text-transparent bg-clip-text bg-gradient-to-b from-orange-500 to-orange-900'>2</p>
                         <p className='text-base lg:text-3xl font-bold'>Challenge </p>
                         <p className='text-base lg:text-3xl font-bold'>Accepted</p>
                     </div>

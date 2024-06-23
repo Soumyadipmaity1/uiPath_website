@@ -5,7 +5,7 @@ import RPA from '../DomainsDetails/RPA.png'
 import ML from '../DomainsDetails/ML.png'
 import Web from '../DomainsDetails/Web.png'
 import Cloud from '../DomainsDetails/Cloud.png'
-
+import ui_ux from "./ui_ux.jpg";
 
 export const creativeDomainData = [
   {
@@ -55,6 +55,14 @@ export const creativeDomainData = [
     image: RPA,
     description:
       'In the graphic design realm, the focus is on crafting visually captivating creations. This community prioritizes intuitive tools, streamlining processes for efficient design, enabling the creation of stunning graphics that effectively communicate ideas and captivate audiences.',
+    buttonLink: '',
+  },
+  {
+    key:7,
+    name: 'Ui/Ux Design',
+    image: ui_ux,
+    description:
+      'The UI/UX domain enhances our community by creating intuitive, accessible, and user-friendly digital experiences. This fosters engagement, inclusivity, and satisfaction, ensuring everyone can interact with technology effortlessly, driving innovation and improving overall digital interactions.',
     buttonLink: '',
   },
 ]

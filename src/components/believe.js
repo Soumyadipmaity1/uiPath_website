@@ -17,17 +17,18 @@ export default function Believe() {
         </h2>
         <div className='flex   mt-6 mx-10'>
           <button
-            className={activeCard === "learn" ? 'px-4 py-2 bg-black text-orange-500 font-semibold hover:text-orange-500 rounded-lg shadow-md focus:outline-none' : 'px-4 py-2 bg-black text-gray-500 font-semibold hover:text-orange-500 rounded-lg shadow-md focus:outline-none'}
-            onClick={() => handleCardClick('learn')}
-          >
-            Learn
-          </button>
-          <button
             className={activeCard === "connect" ? 'px-4 py-2 bg-black text-orange-500 font-semibold hover:text-orange-500 rounded-lg shadow-md focus:outline-none' : 'px-4 py-2 bg-black text-gray-500 font-semibold hover:text-orange-500 rounded-lg shadow-md focus:outline-none'}
             onClick={() => handleCardClick('connect')}
           >
             Connect
           </button>
+          <button
+            className={activeCard === "learn" ? 'px-4 py-2 bg-black text-orange-500 font-semibold hover:text-orange-500 rounded-lg shadow-md focus:outline-none' : 'px-4 py-2 bg-black text-gray-500 font-semibold hover:text-orange-500 rounded-lg shadow-md focus:outline-none'}
+            onClick={() => handleCardClick('learn')}
+          >
+            Learn
+          </button>
+
           <button
             className={activeCard === "collaborate" ? 'px-4 py-2 bg-black text-orange-500 font-semibold hover:text-orange-500 rounded-lg shadow-md focus:outline-none' : 'px-4 py-2 bg-black text-gray-500 font-semibold hover:text-orange-500 rounded-lg shadow-md focus:outline-none'}
             onClick={() => handleCardClick('collaborate')}

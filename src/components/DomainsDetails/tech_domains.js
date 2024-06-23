@@ -27,7 +27,7 @@ export const TechdomainData = [
     image: ML,
     description:
       'Core Machine Learning is the backbone of modern AI systems, enabling machines to learn from data, recognize patterns, and make intelligent decisions. As a domain of a tech society, it involves developing algorithms and techniques that power various applications such as predictive analytics, natural language processing, and computer vision, driving innovation and automation across industries.',
-    buttonLink: '',
+    buttonLink: 'https://roadmap.sh/ai/machine-learning-classes',
   },
   {
     name: 'Web Development',

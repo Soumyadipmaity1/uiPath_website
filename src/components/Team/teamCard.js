@@ -2,16 +2,16 @@ import React from 'react'
 
 export default function TeamCard({ name, image, postion }) {
     return (
-        <div className="xl:w-4/12 md:w-6/12 w-full">
-            <div className="team_main_bop_wrapper bg-[#2C3A47] m-2 pb-6 px-2 pt-2 rounded-lg h-[400px] duration-200 delay-75">
-                <div className="image h-[300px] overflow-hidden  rounded-2xl bg-slate-600">
-                    <img className='w-full duration-200 delay-100' src={image} alt="image" />
+        <div className="md:w-4/12 w-full cursor-pointer memberBoxWrapper">
+            <div className="wrapper_box p-2 bg-[#2c3e50] h-[400px] rounded-md m-2">
+                <div className="img_wrapper relative rounded-md h-[80%] overflow-hidden">
+                    <img className='w-full h-full object-cover' src={image} alt="" />
                 </div>
-                <div className="txt p-2">
-                    <div className="name">
+                <div className="content_area h-[20%] flex justify-center items-center flex-col">
+                    <div className="title">
                         {name}
                     </div>
-                    <div className="position">
+                    <div className="role">
                         {postion}
                     </div>
                 </div>

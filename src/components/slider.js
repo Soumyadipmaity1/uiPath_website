@@ -40,7 +40,7 @@ export default function Slider_() {
 
     <>
       {/*<!-- Component: Testimonial carousel --> */}
-      <div className="glide-08 relative w-full overflow-hidden bg-gradient-to-r from-red-400 to-orange-500 py-6">
+      <div className="glide-08 mt-20 relative w-full overflow-hidden bg-gradient-to-r from-red-400 to-orange-500 py-6">
         {/*    <!-- Slides --> */}
         <div data-glide-el="track" className='h-72'>
           <ul className="whitespace-no-wrap bg h-72 flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden ">

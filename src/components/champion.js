@@ -65,7 +65,7 @@ export default function Champion() {
               }}
               initial="hidden"
               animate={mainAnimation}
-              transition={{ duration: .5, delay: .45 }} className="image_bx bg-white rounded-md h-[300px]">
+              transition={{ duration: .5, delay: .45 }} className="image_bx md:my-0 my-8 bg-white rounded-md h-[300px]">
               <img src={img} alt="image" className='w-full rounded-md' />
             </motion.div>
           </div>

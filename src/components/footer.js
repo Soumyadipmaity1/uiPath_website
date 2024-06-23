@@ -36,7 +36,7 @@ export default function Footer() {
                 <div className="md:w-6/12 w-full flex flex-col items-center md:items-start mt-2">
                     <div className="image_wrapper"> <img src={logoSrc} alt="site_logo" className='w-[200px]' /></div>
                     <div className="tagline text-[14px] font-semibold my-2">
-                        Learn | Connect | Collaborate
+                    Connect | Learn  | Collaborate
                     </div>
                     <div className="socal_icon flex gap-4 items-center mt-2">
                         <div className="box cursor-pointer hover:translate-y-1 transition-all duration-300">
@@ -65,6 +65,16 @@ export default function Footer() {
                                 CONTACT US
                             </div>
                             <ul>
+                            <li className='flex items-center gap-2 text-[15px] mt-1'>
+                                    <div className="icon">
+                                        <MdMailOutline />
+                                    </div>
+                                    <div className="text">
+
+                                    uipathcommunitykiit@gmail.com
+
+                                    </div>
+                                </li>
                                 <li className='flex items-center gap-2 text-[15px]'>
                                     <div className="icon">
                                         <IoCallOutline />

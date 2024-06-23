@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { NavLink, useLocation } from 'react-router-dom'
+import { NavLink, useLocation,Link } from 'react-router-dom'
 import brand from '../assets/images/brand_logo.svg'
 
 
@@ -10,7 +10,7 @@ export default function Navbar() {
   const pathname = location.pathname;
 
   return (
-    <header className=" relative z-20 w-full   bg-black shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-black lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
+    <header className="px-5 fixed top-0 left-0 z-20 w-full   bg-black shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-black lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
       <div className="relative mx-auto max-w-full lg:px-0 px-3 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
         <nav
           aria-label="main navigation"
@@ -87,13 +87,15 @@ export default function Navbar() {
                 </NavLink>
               </div>
             </li>
+          
             <li role="none" className="flex items-stretch">
               <div className={pathname === "/Blogs" ? "flex items-center text-orange-600 py-4 transition-colors duration-300 hover:text-orange-500 focus:text-orange-600 focus:outline-none focus-visible:outline-none lg:px-4" : "flex items-center text-white py-4 transition-colors duration-300 hover:text-orange-500 focus:text-orange-600 focus:outline-none focus-visible:outline-none lg:px-4"}>
-                <NavLink to='/Blogs'>
+              <Link to="https://medium.com/@uipathcommunitykiit" target="_blank" >
                   Blogs
-                </NavLink>
+                  </Link>
               </div>
             </li>
+          
             <li role="none" className="flex items-stretch">
               <div className={pathname === "/Gallery" ? "flex items-center text-orange-600 py-4 transition-colors duration-300 hover:text-orange-500 focus:text-orange-600 focus:outline-none focus-visible:outline-none lg:px-4" : "flex items-center text-white py-4 transition-colors duration-300 hover:text-orange-500 focus:text-orange-600 focus:outline-none focus-visible:outline-none lg:px-4"}>
                 <NavLink to='/Gallery'>

@@ -28,16 +28,17 @@ export default function Testimonial() {
                     </div>
                 </div>
                 <TestmonialSlider faculty_data={faculty_data} swiperRef={swiperRef} />
-            </div>
-            <div className="contaroller_swipper">
+                <div className="contaroller_swipper">
                 <div className="review-swiper-button-prev  w-[40px] h-[40px] border rounded-full flex justify-center items-center absolute top-[62%]  z-10 left-[0px] cursor-pointer" onClick={goPrev} >
                     <FaArrowLeft />
                 </div>
 
-                <div className=" swiper-button-next w-[40px] h-[40px] border rounded-full flex justify-center items-center absolute top-[62%]  z-10 right-[0px] cursor-pointer" onClick={goNext}>
+                <div className="review-swiper-button-prev w-[40px] h-[40px] border rounded-full flex justify-center items-center absolute top-[62%]  z-10 right-[0px] cursor-pointer" onClick={goNext}>
                     <FaArrowRight />
                 </div>
             </div>
+            </div>
+           
         </section>
     )
 }
